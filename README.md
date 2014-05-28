@@ -270,13 +270,13 @@ http-server
 ```
 
 Alternatively, you can choose to configure your own webserver, such as apache or nginx. Just
-configure your server to serve the files under the `client/` directory.
+configure your server to serve the files under the `/` directory.
 
 
 ### Running the App in Production
 
 This really depends on how complex is your app and the overall infrastructure of your system, but
-the general rule is that all you need in production are all the files under the `app/` directory.
+the general rule is that all you need in production are all the files under the `client/` directory.
 Everything else should be omitted.
 
 Angular apps are really just a bunch of static html, css and js files that just need to be hosted
